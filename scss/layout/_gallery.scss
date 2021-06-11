@@ -1,0 +1,37 @@
+.videos {
+  font-family: $app-f-family1;
+  font-size: $app-f-size-xx-large;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+}
+
+.gallery {
+  font-family: $app-f-family1;
+  color: $app-color-primary1;
+  &__title {
+    font-size: $app-f-size-x-large;
+    font-weight: $app-fw-bold;
+    margin-top: 20px;
+  }
+  &__text {
+    color: $app-color-primary2;
+    margin-bottom: 0;
+  }
+}
+
+.hover-effect {
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 992px) {
+  .line {
+    display: none;
+  }
+}

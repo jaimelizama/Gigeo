@@ -1,0 +1,28 @@
+.logo {
+  display: flex;
+  font-family: $app-f-family1;
+  color: $app-color-primary1;
+  font-size: $app-f-size-xxx-large;
+  cursor: pointer;
+}
+i {
+  color: $app-color-primary1;
+  cursor: pointer;
+}
+.hero {
+  background-image: url(/Gigeo/assets/img/image-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15vh;
+}
+
+.sup {
+  font-size: $app-f-size-small;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    height: 30vh;
+  }
+}
